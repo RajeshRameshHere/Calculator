@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="calci.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<div class="heading">Calculator</div>
+
+<body>
+    <div class="container">
+ <div class="calculator">
+    <input id="display" readonly>
+    <di id="keys">
+        <button onclick="appandtodisplay('+')" class="oprator-btn">+</button>
+        <button onclick="appandtodisplay('7')">7</button>
+        <button onclick="appandtodisplay('8')">8</button>
+        <button onclick="appandtodisplay('9')">9</button>
+        <button onclick="appandtodisplay('-')"class="oprator-btn">-</button>
+        <button onclick="appandtodisplay('4')">4</button>
+        <button onclick="appandtodisplay('5')">5</button>
+        <button onclick="appandtodisplay('6')">6</button>
+        <button onclick="appandtodisplay('*')"class="oprator-btn">*</button>
+        <button onclick="appandtodisplay('1')">1</button>
+        <button onclick="appandtodisplay('2')">2</button>
+        <button onclick="appandtodisplay('3')">3</button>
+        <button onclick="appandtodisplay('/')"class="oprator-btn">/</button>
+        <button onclick="appandtodisplay('0')">0</button>
+        <button onclick="appandtodisplay('.')">.</button>
+
+        <button onclick="calculate()">=</button>
+        <button onclick="clearDisplay()"class="oprator-btn">C</button>
+    </div>
+</div>
+<script src="calci.js"></script>
+</div>
+</body>
+</html>
+
